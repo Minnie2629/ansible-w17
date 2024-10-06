@@ -1,0 +1,19 @@
+---
+- hosts: ws
+  become: yes
+  ignore_errors: yes
+  vars_files:
+    - vars.yml
+  
+  tasks:
+   
+    - name: Download ZIP file from URL
+      get_url:
+        url: 
+        dest: 
+        mode: '0755'
+        
+    - name: Delete the downloaded ZIP file
+      file:
+        path: "/tmp/main.zip"
+        state: absent

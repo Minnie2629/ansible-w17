@@ -1,0 +1,39 @@
+---
+- hosts: all
+  become: true
+  ignore_errors: true
+  gather_facts: false
+  # Uncomment if needed: become_user: root
+
+  tasks:
+    - name: create a file
+      file:
+        path: /tmp/playbookfile
+        mode: '0755'
+        state: touch
+
+    - name: create directory
+      file:
+        path: /tmp/dir
+        mode: '0700'
+        state: directory
+
+    - name: create group security
+      group:
+        name: security
+        state: present
+      
+    - name: create user Minnie
+      user:
+        name: Minnie
+        comment: Minnie Admin
+        shell: /bin/bash
+        group: security
+        name: Minnie
+        
+
+    - name: Check uptime
+      command: uptime
+    - name: Check the date
+      shell: cat /etc/passwd | minnie
+      

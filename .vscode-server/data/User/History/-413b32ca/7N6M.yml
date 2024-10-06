@@ -1,0 +1,39 @@
+---
+- hosts: ws
+  become: true
+  ignore_errors: true
+  gather_facts: true
+  # Uncomment if needed: become_user: root
+
+  tasks:
+    - name: install package
+      yum:
+        name: /tmp/playbookfile
+        mode: '0755'
+        state: touch
+
+    - name: create directory
+      file:
+        path: /tmp/dir
+        mode: '0700'
+        state: directory
+
+    - name: create group security
+      group:
+        name: security
+        state: present
+      
+    - name: create user Minnie
+      user:
+        name: Minnie
+        comment: Minnie Admin
+        shell: /bin/bash
+        group: security
+        name: Minnie
+      when: ansible_os_family == "Debian" or ansible_processor_nproc > 2
+
+    - name: Check uptime
+      command: uptime
+    - name: Check the date
+      shell: cat /etc/passwd | minnie
+      

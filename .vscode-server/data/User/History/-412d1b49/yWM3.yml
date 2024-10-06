@@ -1,0 +1,22 @@
+---
+- hosts: ws
+  become: yes
+  ignore_errors: yes
+  tasks:
+    - name: Create destination directory for unzipping
+      file:
+        path: "/tmp/extracted"
+        state: directory
+        mode: '0755'
+
+    - name: Download ZIP file from URL
+      get_url:
+        url: "https://github.com/Minnie2629/resume/archive/refs/heads/main.zip"
+        dest: "/tmp/main.zip"
+        mode: '0755'
+
+    - name: Unzip the downloaded file
+      unarchive:
+        src: "/tmp/main.zip"
+        dest: "/tmp/extracted"
+        remote_src: yes

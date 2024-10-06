@@ -1,0 +1,20 @@
+hosts: all
+  become: yes
+  tasks:
+    - name: Download package from URL
+      get_url:
+        url: "https://example.com/package.rpm"
+        dest: "/tmp/package.rpm"
+        mode: '0755'
+
+    - name: Install the downloaded package
+      yum:
+        name: "/tmp/package.rpm"
+        state: present
+      # Use 'apt' instead of 'yum' if using a Debian-based system (see below)
+
+    # For Debian-based systems (Ubuntu, etc.), use this task instead:
+    # - name: Install the downloaded package
+    #   apt:
+    #     deb: "/tmp/package.deb"
+    #     state: present

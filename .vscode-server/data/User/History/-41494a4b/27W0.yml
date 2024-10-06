@@ -1,0 +1,23 @@
+---
+- host: all
+  become: yes/no/1/0
+  #become_user: root
+
+  tasks:
+    -name: create a file
+      file:
+        path: /tmp/playbookfile
+        mode: '0755'
+        state: touch
+
+    -name: create directory
+      file:
+        path: /tmp/dir
+        mode: '0700'
+        state: directory  
+
+    -name: create user
+      file:
+        path: /tmp/dir
+        mode: '0700'
+        state: directory 

@@ -1,0 +1,57 @@
+2024-10-05 15:35:22.530 [info] 
+
+
+
+
+2024-10-05 15:35:22.545 [info] Extension host agent started.
+2024-10-05 15:35:22.626 [info] Started initializing default profile extensions in extensions installation folder. file:///home/ec2-user/.vscode-server/extensions
+2024-10-05 15:35:22.646 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/ec2-user/.vscode-server/extensions
+2024-10-05 15:35:22.703 [info] [<unknown>][59885df8][ExtensionHostConnection] New connection established.
+2024-10-05 15:35:22.710 [info] [<unknown>][8e7878e9][ManagementConnection] New connection established.
+2024-10-05 15:35:23.293 [info] [<unknown>][59885df8][ExtensionHostConnection] <2756> Launched Extension Host Process.
+2024-10-05 15:35:25.660 [error] CodeExpectedError: Could not find pty on pty host
+    at L.U (/home/ec2-user/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/platform/terminal/node/ptyHostMain.js:54:31232)
+    at L.updateTitle (/home/ec2-user/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/platform/terminal/node/ptyHostMain.js:54:26432)
+    at I.A.<computed> (/home/ec2-user/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/platform/terminal/node/ptyHostMain.js:54:21704)
+    at Object.call (/home/ec2-user/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/platform/terminal/node/ptyHostMain.js:37:5378)
+    at l.s (/home/ec2-user/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/platform/terminal/node/ptyHostMain.js:35:5507)
+    at l.q (/home/ec2-user/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/platform/terminal/node/ptyHostMain.js:35:4948)
+    at b.value (/home/ec2-user/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/platform/terminal/node/ptyHostMain.js:35:4248)
+    at n.B (/home/ec2-user/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/platform/terminal/node/ptyHostMain.js:30:741)
+    at n.fire (/home/ec2-user/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/platform/terminal/node/ptyHostMain.js:30:958)
+    at process.be (/home/ec2-user/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/platform/terminal/node/ptyHostMain.js:25:11119)
+    at process.emit (node:events:519:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-10-05 15:35:25.663 [error] CodeExpectedError: Could not find pty on pty host
+    at L.U (/home/ec2-user/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/platform/terminal/node/ptyHostMain.js:54:31232)
+    at L.updateIcon (/home/ec2-user/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/platform/terminal/node/ptyHostMain.js:54:26482)
+    at I.A.<computed> (/home/ec2-user/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/platform/terminal/node/ptyHostMain.js:54:21704)
+    at Object.call (/home/ec2-user/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/platform/terminal/node/ptyHostMain.js:37:5378)
+    at l.s (/home/ec2-user/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/platform/terminal/node/ptyHostMain.js:35:5507)
+    at l.q (/home/ec2-user/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/platform/terminal/node/ptyHostMain.js:35:4948)
+    at b.value (/home/ec2-user/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/platform/terminal/node/ptyHostMain.js:35:4248)
+    at n.B (/home/ec2-user/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/platform/terminal/node/ptyHostMain.js:30:741)
+    at n.fire (/home/ec2-user/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/platform/terminal/node/ptyHostMain.js:30:958)
+    at process.be (/home/ec2-user/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/platform/terminal/node/ptyHostMain.js:25:11119)
+    at process.emit (node:events:519:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-10-05 15:39:08.983 [info] [<unknown>][8e7878e9][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-10-05 15:39:09.027 [info] [<unknown>][59885df8][ExtensionHostConnection] <2756> Extension Host Process exited with code: 0, signal: null.
+2024-10-05 15:39:09.031 [info] Cancelling previous shutdown timeout
+2024-10-05 15:39:09.031 [info] Last EH closed, waiting before shutting down
+2024-10-05 15:39:23.279 [info] [<unknown>][070630ff][ExtensionHostConnection] New connection established.
+2024-10-05 15:39:23.284 [info] [<unknown>][070630ff][ExtensionHostConnection] <2964> Launched Extension Host Process.
+2024-10-05 15:39:23.305 [info] [<unknown>][c49bb48f][ManagementConnection] New connection established.
+2024-10-05 15:44:09.033 [info] New EH opened, aborting shutdown
+2024-10-05 15:44:09.036 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/ec2-user/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/server/node/server.main.js:198:6390)
+    at process.emit (node:events:531:35)
+2024-10-05 15:46:24.307 [info] [<unknown>][c49bb48f][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-10-05 15:46:24.381 [info] [<unknown>][070630ff][ExtensionHostConnection] <2964> Extension Host Process exited with code: 0, signal: null.
+2024-10-05 15:46:24.382 [info] Last EH closed, waiting before shutting down
+2024-10-05 15:46:27.115 [info] [<unknown>][334b83be][ManagementConnection] New connection established.
+2024-10-05 15:46:27.141 [info] [<unknown>][b949fd6d][ExtensionHostConnection] New connection established.
+2024-10-05 15:46:27.145 [info] [<unknown>][b949fd6d][ExtensionHostConnection] <3188> Launched Extension Host Process.
+2024-10-05 15:51:24.383 [info] New EH opened, aborting shutdown

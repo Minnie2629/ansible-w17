@@ -1,0 +1,12 @@
+---
+- hosts: ws
+  become: yes
+  ignore_errors: yes
+  
+  tasks:
+   
+    - name: Download ZIP file from URL
+      get_url:
+        url: "https://github.com/Minnie2629/resume/archive/refs/heads/main.zip"
+        dest: "/tmp/main.zip"
+        mode: '0755'

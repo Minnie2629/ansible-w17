@@ -1,0 +1,13 @@
+---
+- hosts: ws
+  become: yes
+  ignore_errors: yes
+  vars: 
+    f_name: John
+  tasks: 
+    - name: Debug module
+      debug:
+        msg: "Hello from my playbook"
+
+  
+  

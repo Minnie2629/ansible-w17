@@ -1,0 +1,10 @@
+---
+- host: all
+  become: yes/no/1/0
+  #become_user: root
+
+  tasks:
+    - name: create a file
+      file:
+        path: /tmp/playbookfile
+        mode: '0'

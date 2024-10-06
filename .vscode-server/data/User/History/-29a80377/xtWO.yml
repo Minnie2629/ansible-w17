@@ -1,0 +1,37 @@
+---
+- hosts: ws
+  become: false
+  ignore_errors: false
+  gather_facts: false
+  # Uncomment if needed: become_user: root
+
+  tasks:
+    - name: Install required packages
+      package:
+        state: present
+        name: "{{ item }}"
+      loop:
+        - unzip
+        - wget
+        - httpd
+
+    - name: Download artifact
+      get_url:
+        url: https://github.com/Minnie2629/resume/archive/refs/heads/main.zip
+        dest: /tmp/main.zip
+
+    - name: Unarchive zip file
+      unarchive:
+        src: /tmp/main.zip
+        dest: /tmp
+        remote_src: yes
+
+    - name: copy artifact to html folder
+      copy:
+        remote_src: yes
+        src: /tmp/resume-main/
+        dest: /var/www/html
+        recursive: yes
+        owner: apache
+        group: apache
+        mode: '0755'

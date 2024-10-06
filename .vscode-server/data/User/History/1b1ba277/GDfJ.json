@@ -1,0 +1,10 @@
+{
+    "workbench.colorTheme": "Copilot Theme",
+    "files.autoSave": "afterDelay",
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "workbench.iconTheme": "vscode-icons",
+    "explorer.confirmDelete": false,
+    "remote.SSH.remotePlatform": {
+        "ansible-master": "linux"
+    }
+}
