@@ -1,0 +1,131 @@
+2024-10-13 09:21:20.495 [info] 
+
+
+
+
+2024-10-13 09:21:20.756 [info] Extension host agent started.
+2024-10-13 09:21:21.894 [info] [<unknown>][1c9d59da][ManagementConnection] New connection established.
+2024-10-13 09:21:21.896 [info] [<unknown>][60de8b94][ExtensionHostConnection] New connection established.
+2024-10-13 09:21:22.318 [info] [<unknown>][60de8b94][ExtensionHostConnection] <2530> Launched Extension Host Process.
+2024-10-13 09:21:50.416 [info] [<unknown>][1c9d59da][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-10-13 09:21:50.450 [info] [<unknown>][60de8b94][ExtensionHostConnection] <2530> Extension Host Process exited with code: 0, signal: null.
+2024-10-13 09:21:50.451 [info] Cancelling previous shutdown timeout
+2024-10-13 09:21:50.451 [info] Last EH closed, waiting before shutting down
+2024-10-13 09:21:53.427 [info] [<unknown>][5a4fb55b][ManagementConnection] New connection established.
+2024-10-13 09:21:53.428 [info] [<unknown>][d616ee33][ExtensionHostConnection] New connection established.
+2024-10-13 09:21:53.432 [info] [<unknown>][d616ee33][ExtensionHostConnection] <2644> Launched Extension Host Process.
+2024-10-13 09:23:09.155 [info] [<unknown>][5a4fb55b][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-10-13 09:23:09.184 [info] [<unknown>][d616ee33][ExtensionHostConnection] <2644> Extension Host Process exited with code: 0, signal: null.
+2024-10-13 09:23:09.184 [info] Cancelling previous shutdown timeout
+2024-10-13 09:23:09.184 [info] Last EH closed, waiting before shutting down
+2024-10-13 09:23:27.415 [info] [<unknown>][16d64558][ManagementConnection] New connection established.
+2024-10-13 09:23:27.446 [info] [<unknown>][7cbb5da4][ExtensionHostConnection] New connection established.
+2024-10-13 09:23:27.450 [info] [<unknown>][7cbb5da4][ExtensionHostConnection] <2829> Launched Extension Host Process.
+2024-10-13 09:23:55.226 [info] [<unknown>][16d64558][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-10-13 09:23:55.249 [info] [<unknown>][7cbb5da4][ExtensionHostConnection] <2829> Extension Host Process exited with code: 0, signal: null.
+2024-10-13 09:23:55.250 [info] Cancelling previous shutdown timeout
+2024-10-13 09:23:55.250 [info] Last EH closed, waiting before shutting down
+2024-10-13 09:23:58.423 [info] [<unknown>][fce68b90][ManagementConnection] New connection established.
+2024-10-13 09:23:58.458 [info] [<unknown>][238d5f20][ExtensionHostConnection] New connection established.
+2024-10-13 09:23:58.462 [info] [<unknown>][238d5f20][ExtensionHostConnection] <2982> Launched Extension Host Process.
+2024-10-13 09:24:15.417 [info] [<unknown>][fce68b90][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-10-13 09:24:15.425 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (file:///home/ec2-user/.vscode-server/cli/servers/Stable-d78a74bcdfad14d5d3b1b782f87255d802b57511/server/out/vs/server/node/server.main.js:189:5899)
+    at process.emit (node:events:531:35)
+2024-10-13 09:24:15.464 [info] [<unknown>][238d5f20][ExtensionHostConnection] <2982> Extension Host Process exited with code: 0, signal: null.
+2024-10-13 09:24:15.465 [info] Cancelling previous shutdown timeout
+2024-10-13 09:24:15.465 [info] Last EH closed, waiting before shutting down
+2024-10-13 09:24:47.907 [info] [<unknown>][e6a3153d][ManagementConnection] New connection established.
+2024-10-13 09:24:47.938 [info] [<unknown>][de96dc96][ExtensionHostConnection] New connection established.
+2024-10-13 09:24:47.943 [info] [<unknown>][de96dc96][ExtensionHostConnection] <3146> Launched Extension Host Process.
+2024-10-13 09:25:05.407 [info] [<unknown>][e6a3153d][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-10-13 09:25:05.432 [info] [<unknown>][de96dc96][ExtensionHostConnection] <3146> Extension Host Process exited with code: 0, signal: null.
+2024-10-13 09:25:05.433 [info] Cancelling previous shutdown timeout
+2024-10-13 09:25:05.433 [info] Last EH closed, waiting before shutting down
+2024-10-13 09:25:07.943 [info] [<unknown>][bd62cbb7][ExtensionHostConnection] New connection established.
+2024-10-13 09:25:07.949 [info] [<unknown>][bd62cbb7][ExtensionHostConnection] <3251> Launched Extension Host Process.
+2024-10-13 09:25:07.959 [info] [<unknown>][296e8871][ManagementConnection] New connection established.
+2024-10-13 09:25:38.683 [info] [<unknown>][296e8871][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-10-13 09:25:38.715 [info] [<unknown>][bd62cbb7][ExtensionHostConnection] <3251> Extension Host Process exited with code: 0, signal: null.
+2024-10-13 09:25:38.715 [info] Cancelling previous shutdown timeout
+2024-10-13 09:25:38.715 [info] Last EH closed, waiting before shutting down
+2024-10-13 09:25:49.506 [info] [<unknown>][066cc4af][ManagementConnection] New connection established.
+2024-10-13 09:25:49.539 [info] [<unknown>][8a8dc0e2][ExtensionHostConnection] New connection established.
+2024-10-13 09:25:49.543 [info] [<unknown>][8a8dc0e2][ExtensionHostConnection] <3415> Launched Extension Host Process.
+2024-10-13 09:26:02.902 [info] [<unknown>][066cc4af][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-10-13 09:26:02.969 [info] [<unknown>][8a8dc0e2][ExtensionHostConnection] <3415> Extension Host Process exited with code: 0, signal: null.
+2024-10-13 09:26:02.970 [info] Cancelling previous shutdown timeout
+2024-10-13 09:26:02.970 [info] Last EH closed, waiting before shutting down
+2024-10-13 09:26:05.639 [info] [<unknown>][f94dbdf5][ManagementConnection] New connection established.
+2024-10-13 09:26:05.670 [info] [<unknown>][a931cd6f][ExtensionHostConnection] New connection established.
+2024-10-13 09:26:05.673 [info] [<unknown>][a931cd6f][ExtensionHostConnection] <3524> Launched Extension Host Process.
+2024-10-13 09:26:25.052 [info] [<unknown>][f94dbdf5][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-10-13 09:26:25.086 [info] [<unknown>][a931cd6f][ExtensionHostConnection] <3524> Extension Host Process exited with code: 0, signal: null.
+2024-10-13 09:26:25.087 [info] Cancelling previous shutdown timeout
+2024-10-13 09:26:25.087 [info] Last EH closed, waiting before shutting down
+2024-10-13 09:26:40.063 [info] [<unknown>][e3db0bb5][ManagementConnection] New connection established.
+2024-10-13 09:26:40.065 [info] [<unknown>][a2d09104][ExtensionHostConnection] New connection established.
+2024-10-13 09:26:40.070 [info] [<unknown>][a2d09104][ExtensionHostConnection] <3654> Launched Extension Host Process.
+2024-10-13 09:26:58.536 [info] [<unknown>][e3db0bb5][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-10-13 09:26:58.588 [info] [<unknown>][a2d09104][ExtensionHostConnection] <3654> Extension Host Process exited with code: 0, signal: null.
+2024-10-13 09:26:58.588 [info] Cancelling previous shutdown timeout
+2024-10-13 09:26:58.588 [info] Last EH closed, waiting before shutting down
+2024-10-13 09:27:01.080 [info] [<unknown>][613506ce][ExtensionHostConnection] New connection established.
+2024-10-13 09:27:01.083 [info] [<unknown>][613506ce][ExtensionHostConnection] <3759> Launched Extension Host Process.
+2024-10-13 09:27:01.111 [info] [<unknown>][a56f7499][ManagementConnection] New connection established.
+2024-10-13 09:27:09.276 [info] [<unknown>][a56f7499][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-10-13 09:27:09.308 [info] [<unknown>][613506ce][ExtensionHostConnection] <3759> Extension Host Process exited with code: 0, signal: null.
+2024-10-13 09:27:09.309 [info] Cancelling previous shutdown timeout
+2024-10-13 09:27:09.309 [info] Last EH closed, waiting before shutting down
+2024-10-13 09:27:18.391 [info] [<unknown>][005a6715][ManagementConnection] New connection established.
+2024-10-13 09:27:18.420 [info] [<unknown>][3a510967][ExtensionHostConnection] New connection established.
+2024-10-13 09:27:18.423 [info] [<unknown>][3a510967][ExtensionHostConnection] <3882> Launched Extension Host Process.
+2024-10-13 09:27:55.256 [info] [<unknown>][004f32ab][ManagementConnection] New connection established.
+2024-10-13 09:27:55.286 [info] [<unknown>][31664986][ExtensionHostConnection] New connection established.
+2024-10-13 09:27:55.291 [info] [<unknown>][31664986][ExtensionHostConnection] <3986> Launched Extension Host Process.
+2024-10-13 09:28:14.428 [info] [<unknown>][004f32ab][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-10-13 09:28:14.455 [info] [<unknown>][31664986][ExtensionHostConnection] <3986> Extension Host Process exited with code: 0, signal: null.
+2024-10-13 09:28:14.455 [info] Cancelling previous shutdown timeout
+2024-10-13 09:28:17.257 [info] [<unknown>][9bbfdaee][ManagementConnection] New connection established.
+2024-10-13 09:28:17.288 [info] [<unknown>][3961261f][ExtensionHostConnection] New connection established.
+2024-10-13 09:28:17.294 [info] [<unknown>][3961261f][ExtensionHostConnection] <4090> Launched Extension Host Process.
+2024-10-13 09:28:28.888 [info] [<unknown>][9bbfdaee][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-10-13 09:28:28.924 [info] [<unknown>][3961261f][ExtensionHostConnection] <4090> Extension Host Process exited with code: 0, signal: null.
+2024-10-13 09:28:34.971 [info] [<unknown>][005a6715][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-10-13 09:28:35.000 [info] [<unknown>][3a510967][ExtensionHostConnection] <3882> Extension Host Process exited with code: 0, signal: null.
+2024-10-13 09:28:35.001 [info] Last EH closed, waiting before shutting down
+2024-10-13 09:28:37.617 [info] [<unknown>][e995891c][ExtensionHostConnection] New connection established.
+2024-10-13 09:28:37.619 [info] [<unknown>][e995891c][ExtensionHostConnection] <4256> Launched Extension Host Process.
+2024-10-13 09:28:37.645 [info] [<unknown>][93ab4869][ManagementConnection] New connection established.
+2024-10-13 09:33:35.001 [info] New EH opened, aborting shutdown
+2024-10-13 09:45:43.454 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-10-13 10:37:30.794 [error] CodeExpectedError: Could not find pty 32 on pty host
+    at M.U (file:///home/ec2-user/.vscode-server/cli/servers/Stable-d78a74bcdfad14d5d3b1b782f87255d802b57511/server/out/vs/platform/terminal/node/ptyHostMain.js:48:11102)
+    at M.updateIcon (file:///home/ec2-user/.vscode-server/cli/servers/Stable-d78a74bcdfad14d5d3b1b782f87255d802b57511/server/out/vs/platform/terminal/node/ptyHostMain.js:48:6462)
+    at s.<computed> (file:///home/ec2-user/.vscode-server/cli/servers/Stable-d78a74bcdfad14d5d3b1b782f87255d802b57511/server/out/vs/platform/terminal/node/ptyHostMain.js:48:1843)
+    at Object.call (file:///home/ec2-user/.vscode-server/cli/servers/Stable-d78a74bcdfad14d5d3b1b782f87255d802b57511/server/out/vs/platform/terminal/node/ptyHostMain.js:31:4127)
+    at Fc.s (file:///home/ec2-user/.vscode-server/cli/servers/Stable-d78a74bcdfad14d5d3b1b782f87255d802b57511/server/out/vs/platform/terminal/node/ptyHostMain.js:29:78860)
+    at Fc.q (file:///home/ec2-user/.vscode-server/cli/servers/Stable-d78a74bcdfad14d5d3b1b782f87255d802b57511/server/out/vs/platform/terminal/node/ptyHostMain.js:29:78383)
+    at os.value (file:///home/ec2-user/.vscode-server/cli/servers/Stable-d78a74bcdfad14d5d3b1b782f87255d802b57511/server/out/vs/platform/terminal/node/ptyHostMain.js:29:77785)
+    at y.B (file:///home/ec2-user/.vscode-server/cli/servers/Stable-d78a74bcdfad14d5d3b1b782f87255d802b57511/server/out/vs/platform/terminal/node/ptyHostMain.js:29:732)
+    at y.fire (file:///home/ec2-user/.vscode-server/cli/servers/Stable-d78a74bcdfad14d5d3b1b782f87255d802b57511/server/out/vs/platform/terminal/node/ptyHostMain.js:29:950)
+    at process.v (file:///home/ec2-user/.vscode-server/cli/servers/Stable-d78a74bcdfad14d5d3b1b782f87255d802b57511/server/out/vs/platform/terminal/node/ptyHostMain.js:24:29096)
+    at process.emit (node:events:519:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-10-13 10:37:30.809 [error] CodeExpectedError: Could not find pty 32 on pty host
+    at M.U (file:///home/ec2-user/.vscode-server/cli/servers/Stable-d78a74bcdfad14d5d3b1b782f87255d802b57511/server/out/vs/platform/terminal/node/ptyHostMain.js:48:11102)
+    at M.updateTitle (file:///home/ec2-user/.vscode-server/cli/servers/Stable-d78a74bcdfad14d5d3b1b782f87255d802b57511/server/out/vs/platform/terminal/node/ptyHostMain.js:48:6412)
+    at s.<computed> (file:///home/ec2-user/.vscode-server/cli/servers/Stable-d78a74bcdfad14d5d3b1b782f87255d802b57511/server/out/vs/platform/terminal/node/ptyHostMain.js:48:1843)
+    at Object.call (file:///home/ec2-user/.vscode-server/cli/servers/Stable-d78a74bcdfad14d5d3b1b782f87255d802b57511/server/out/vs/platform/terminal/node/ptyHostMain.js:31:4127)
+    at Fc.s (file:///home/ec2-user/.vscode-server/cli/servers/Stable-d78a74bcdfad14d5d3b1b782f87255d802b57511/server/out/vs/platform/terminal/node/ptyHostMain.js:29:78860)
+    at Fc.q (file:///home/ec2-user/.vscode-server/cli/servers/Stable-d78a74bcdfad14d5d3b1b782f87255d802b57511/server/out/vs/platform/terminal/node/ptyHostMain.js:29:78383)
+    at os.value (file:///home/ec2-user/.vscode-server/cli/servers/Stable-d78a74bcdfad14d5d3b1b782f87255d802b57511/server/out/vs/platform/terminal/node/ptyHostMain.js:29:77785)
+    at y.B (file:///home/ec2-user/.vscode-server/cli/servers/Stable-d78a74bcdfad14d5d3b1b782f87255d802b57511/server/out/vs/platform/terminal/node/ptyHostMain.js:29:732)
+    at y.fire (file:///home/ec2-user/.vscode-server/cli/servers/Stable-d78a74bcdfad14d5d3b1b782f87255d802b57511/server/out/vs/platform/terminal/node/ptyHostMain.js:29:950)
+    at process.v (file:///home/ec2-user/.vscode-server/cli/servers/Stable-d78a74bcdfad14d5d3b1b782f87255d802b57511/server/out/vs/platform/terminal/node/ptyHostMain.js:24:29096)
+    at process.emit (node:events:519:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-10-13 10:37:33.936 [info] [<unknown>][93ab4869][ManagementConnection] The client has reconnected.
+2024-10-13 10:38:03.591 [info] [<unknown>][e995891c][ExtensionHostConnection] The client has reconnected.

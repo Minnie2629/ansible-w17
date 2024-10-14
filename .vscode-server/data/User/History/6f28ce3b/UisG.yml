@@ -1,0 +1,15 @@
+---
+ - hosts: 
+   tasks:
+
+     - name: create a directory
+        win_file:
+          path: C:\users\administrator\desktop\ansible_windows_test
+          state: directory
+
+  - name: download file
+        win_file:
+          path: C:\users\administrator\desktop\ansible_windows_test
+          state: directory
+        
+       

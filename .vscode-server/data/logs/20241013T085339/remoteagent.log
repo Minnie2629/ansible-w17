@@ -1,0 +1,34 @@
+2024-10-13 08:53:41.766 [info] 
+
+
+
+
+2024-10-13 08:53:41.781 [info] Extension host agent started.
+2024-10-13 08:53:41.842 [info] Started initializing default profile extensions in extensions installation folder. file:///home/ec2-user/.vscode-server/extensions
+2024-10-13 08:53:41.881 [info] [<unknown>][e346c639][ManagementConnection] New connection established.
+2024-10-13 08:53:41.883 [info] [<unknown>][e7e24f30][ExtensionHostConnection] New connection established.
+2024-10-13 08:53:41.958 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/ec2-user/.vscode-server/extensions
+2024-10-13 08:53:42.882 [info] [<unknown>][e7e24f30][ExtensionHostConnection] <2789> Launched Extension Host Process.
+2024-10-13 08:57:23.256 [info] [<unknown>][e2e8d866][ManagementConnection] New connection established.
+2024-10-13 08:57:23.258 [info] [<unknown>][08e90009][ExtensionHostConnection] New connection established.
+2024-10-13 08:57:23.263 [info] [<unknown>][08e90009][ExtensionHostConnection] <3124> Launched Extension Host Process.
+2024-10-13 08:58:41.783 [info] New EH opened, aborting shutdown
+2024-10-13 09:00:24.214 [info] [<unknown>][e346c639][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-10-13 09:00:24.276 [info] [<unknown>][e7e24f30][ExtensionHostConnection] <2789> Extension Host Process exited with code: 0, signal: null.
+2024-10-13 09:00:27.143 [info] [<unknown>][e2e8d866][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-10-13 09:01:12.309 [info] [<unknown>][404e0ff4][ManagementConnection] New connection established.
+2024-10-13 09:01:12.340 [info] [<unknown>][e486f169][ExtensionHostConnection] New connection established.
+2024-10-13 09:01:12.343 [info] [<unknown>][e486f169][ExtensionHostConnection] <3291> Launched Extension Host Process.
+2024-10-13 09:01:55.833 [info] [<unknown>][404e0ff4][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-10-13 09:01:55.856 [info] [<unknown>][e486f169][ExtensionHostConnection] <3291> Extension Host Process exited with code: 0, signal: null.
+2024-10-13 09:01:58.733 [info] [<unknown>][ef6d48ef][ManagementConnection] New connection established.
+2024-10-13 09:01:58.765 [info] [<unknown>][ff001349][ExtensionHostConnection] New connection established.
+2024-10-13 09:01:58.768 [info] [<unknown>][ff001349][ExtensionHostConnection] <3400> Launched Extension Host Process.
+2024-10-13 09:06:12.413 [info] [<unknown>][08e90009][ExtensionHostConnection] <3124> Extension Host Process exited with code: 0, signal: null.
+2024-10-13 09:06:12.417 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (file:///home/ec2-user/.vscode-server/cli/servers/Stable-d78a74bcdfad14d5d3b1b782f87255d802b57511/server/out/vs/server/node/server.main.js:189:5899)
+    at process.emit (node:events:531:35)
+2024-10-13 09:14:58.020 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-10-13 09:15:28.828 [info] [<unknown>][ef6d48ef][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-10-13 09:15:28.934 [info] [<unknown>][ff001349][ExtensionHostConnection] <3400> Extension Host Process exited with code: 0, signal: null.
+2024-10-13 09:15:28.934 [info] Last EH closed, waiting before shutting down

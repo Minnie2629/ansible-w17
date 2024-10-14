@@ -1,0 +1,36 @@
+---
+- hosts: ws
+  become: true
+  ignore_errors: true
+  tasks:
+    - name: Update all packages
+      package:
+        name: '*'
+        state: latest
+
+    - name: Install Apache
+      yum:
+        name: httpd
+        state: latest
+
+    - name: Start Apache service
+      service:
+        name: httpd
+        state: started
+        enabled: true
+
+    - name: delete file if exist
+      file:
+        path: /var/www/html/index.html
+        state: present
+
+    - name: Create index.html file
+      file:
+        dest: /var/www/html/index.html
+        state: touch
+
+    - name: Add content to index.html file
+      lineinfile:
+        path: /var/www/html/index.html
+        regexp: '<h1>This apache webserver was built using Ansible</h1>' # Regular expression to find the existing line
+        line: '<h1>replace</h1>'

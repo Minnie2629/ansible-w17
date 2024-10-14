@@ -1,0 +1,166 @@
+2024-10-13 09:28:39.648 [info] [main] Log level: Info
+2024-10-13 09:28:39.648 [info] [main] Validating found git in: "git"
+2024-10-13 09:28:39.648 [info] [main] Using git "2.40.1" from "git"
+2024-10-13 09:28:39.648 [info] [Model][doInitialScan] Initial repository scan started
+2024-10-13 09:28:39.648 [info] > git rev-parse --show-toplevel [46ms]
+2024-10-13 09:28:39.648 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-13 09:28:39.648 [info] > git rev-parse --show-toplevel [3ms]
+2024-10-13 09:28:39.648 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-13 09:28:39.649 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-13 09:28:39.649 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-13 09:28:39.653 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-13 09:28:39.653 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-13 09:28:39.656 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-13 09:28:39.656 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-13 09:28:39.660 [info] > git rev-parse --show-toplevel [0ms]
+2024-10-13 09:28:39.660 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-13 09:28:39.663 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-13 09:28:39.663 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-13 09:28:39.668 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-10-13 09:28:39.831 [info] > git rev-parse --show-toplevel [4ms]
+2024-10-13 09:28:39.831 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-13 09:28:40.094 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-13 09:28:40.095 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-13 09:28:53.368 [info] > git rev-parse --show-toplevel [7ms]
+2024-10-13 09:28:53.368 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-13 09:28:55.031 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-13 09:28:55.031 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-13 09:28:56.179 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-13 09:28:56.179 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-13 09:29:35.967 [info] > git rev-parse --show-toplevel [3ms]
+2024-10-13 09:29:35.974 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-10-13 09:29:36.024 [info] [Model][openRepository] Opened repository: /home/ec2-user/ansible-w17
+2024-10-13 09:29:36.055 [info] > git config --get commit.template [10ms]
+2024-10-13 09:29:36.186 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [133ms]
+2024-10-13 09:29:36.186 [warning] [Git][getBranch] No such branch: master
+2024-10-13 09:29:36.205 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-10-13 09:29:36.250 [info] > git status -z -uall [60ms]
+2024-10-13 09:29:36.273 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [16ms]
+2024-10-13 09:29:36.274 [warning] [Git][getBranch] No such branch: master
+2024-10-13 09:29:36.275 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2024-10-13 09:29:36.286 [info] > git config --get commit.template [15ms]
+2024-10-13 09:29:36.305 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-10-13 09:29:36.305 [warning] [Git][getBranch] No such branch: master
+2024-10-13 09:29:36.320 [info] > git status -z -uall [4ms]
+2024-10-13 09:29:36.323 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2024-10-13 09:29:36.599 [info] > git check-ignore -v -z --stdin [4ms]
+2024-10-13 09:29:43.958 [info] > git config --get commit.template [5ms]
+2024-10-13 09:29:43.962 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-10-13 09:29:43.965 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ec2-user/ansible-w17/.git/refs/remotes/origin/main'
+2024-10-13 09:29:43.969 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2024-10-13 09:29:43.994 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
+2024-10-13 09:29:44.024 [info] > git status -z -uall [52ms]
+2024-10-13 09:29:46.541 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2278ms]
+2024-10-13 09:29:46.645 [info] > git config --local branch.main.vscode-merge-base [65ms]
+2024-10-13 09:29:46.645 [warning] [Git][config] git config failed: Failed to execute git
+2024-10-13 09:29:46.658 [info] > git reflog main --grep-reflog=branch: Created from *. [9ms]
+2024-10-13 09:29:46.678 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [16ms]
+2024-10-13 09:29:46.682 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [1ms]
+2024-10-13 09:29:46.687 [info] > git config --local branch.main.vscode-merge-base origin/main [2ms]
+2024-10-13 09:29:46.695 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-10-13 09:29:46.698 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ec2-user/ansible-w17/.git/refs/remotes/origin/main'
+2024-10-13 09:29:46.701 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-10-13 09:29:46.702 [info] > git config --get commit.template [12ms]
+2024-10-13 09:29:46.734 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
+2024-10-13 09:29:46.798 [info] > git status -z -uall [90ms]
+2024-10-13 09:29:48.835 [info] > git merge-base refs/heads/main refs/remotes/origin/main [1853ms]
+2024-10-13 09:29:48.878 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1905ms]
+2024-10-13 09:29:48.913 [info] > git config --local branch.main.vscode-merge-base [30ms]
+2024-10-13 09:29:48.923 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [2ms]
+2024-10-13 09:29:48.929 [info] > git merge-base refs/heads/main refs/remotes/origin/main [2ms]
+2024-10-13 09:29:48.986 [info] > git diff --name-status -z --diff-filter=ADMR 7fdde104db8940b863510d1f264c96140d5549c2...refs/remotes/origin/main [108ms]
+2024-10-13 09:29:48.987 [info] > git diff --name-status -z --diff-filter=ADMR 7fdde104db8940b863510d1f264c96140d5549c2...refs/remotes/origin/main [56ms]
+2024-10-13 09:29:49.837 [info] > git config --get commit.template [8ms]
+2024-10-13 09:29:49.838 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2024-10-13 09:29:49.845 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ec2-user/ansible-w17/.git/refs/remotes/origin/main'
+2024-10-13 09:29:49.850 [info] > git rev-parse refs/remotes/origin/main [5ms]
+2024-10-13 09:29:49.866 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+2024-10-13 09:29:50.009 [info] > git status -z -uall [156ms]
+2024-10-13 09:29:55.122 [info] > git config --get commit.template [5ms]
+2024-10-13 09:29:55.123 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-10-13 09:29:55.126 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ec2-user/ansible-w17/.git/refs/remotes/origin/main'
+2024-10-13 09:29:55.127 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-10-13 09:29:55.136 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-10-13 09:29:55.165 [info] > git status -z -uall [35ms]
+2024-10-13 09:29:59.549 [info] > git check-ignore -v -z --stdin [4ms]
+2024-10-13 09:30:00.306 [info] > git config --get commit.template [14ms]
+2024-10-13 09:30:00.307 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2024-10-13 09:30:00.316 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ec2-user/ansible-w17/.git/refs/remotes/origin/main'
+2024-10-13 09:30:00.319 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2024-10-13 09:30:00.348 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+2024-10-13 09:30:00.727 [info] > git status -z -uall [400ms]
+2024-10-13 09:30:45.492 [info] > git check-ignore -v -z --stdin [4ms]
+2024-10-13 09:30:47.430 [info] > git show --textconv :ansible-dev/inv.yml [9ms]
+2024-10-13 09:30:47.432 [info] > git ls-files --stage -- /home/ec2-user/ansible-w17/ansible-dev/inv.yml [5ms]
+2024-10-13 09:30:47.440 [info] > git cat-file -s ec4a563d1a015d69b03aacedd6046ab85404cc6d [1ms]
+2024-10-13 09:31:12.808 [info] > git config --get commit.template [10ms]
+2024-10-13 09:31:12.827 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2024-10-13 09:31:12.833 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ec2-user/ansible-w17/.git/refs/remotes/origin/main'
+2024-10-13 09:31:12.847 [info] > git rev-parse refs/remotes/origin/main [13ms]
+2024-10-13 09:31:12.876 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2024-10-13 09:31:13.048 [info] > git status -z -uall [192ms]
+2024-10-13 09:31:30.437 [info] > git config --get commit.template [12ms]
+2024-10-13 09:31:30.438 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2024-10-13 09:31:30.451 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ec2-user/ansible-w17/.git/refs/remotes/origin/main'
+2024-10-13 09:31:30.454 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2024-10-13 09:31:30.488 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2024-10-13 09:31:30.613 [info] > git status -z -uall [153ms]
+2024-10-13 09:45:44.746 [warning] [Git][getHEAD] Failed to parse HEAD file: ENOENT: no such file or directory, open '/home/ec2-user/ansible-w17/.git/HEAD'
+2024-10-13 09:45:44.752 [warning] [Git][getRemotes] Error: ENOENT: no such file or directory, open '/home/ec2-user/ansible-w17/.git/config'
+2024-10-13 09:45:44.759 [warning] [Git][getHEAD] Failed to parse HEAD file: ENOENT: no such file or directory, open '/home/ec2-user/ansible-w17/.git/HEAD'
+2024-10-13 09:45:44.762 [warning] [Git][getRemotes] Error: ENOENT: no such file or directory, open '/home/ec2-user/ansible-w17/.git/config'
+2024-10-13 09:46:19.738 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-13 09:46:19.738 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-13 09:50:26.997 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/ec2-user/ansible-w17/". Error:Error: ENOENT: no such file or directory, realpath '/home/ec2-user/ansible-w17/'
+2024-10-13 09:50:27.958 [info] > git rev-parse --show-toplevel [198ms]
+2024-10-13 09:50:27.958 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-13 09:51:59.733 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-13 09:51:59.733 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-13 09:54:37.322 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-13 09:54:37.322 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-13 09:58:59.943 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-13 09:58:59.943 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-13 09:59:34.745 [info] > git rev-parse --show-toplevel [5ms]
+2024-10-13 09:59:34.745 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-13 09:59:47.046 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-13 09:59:47.046 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-13 10:00:04.986 [info] > git rev-parse --show-toplevel [7ms]
+2024-10-13 10:00:04.986 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-13 10:00:10.557 [info] > git rev-parse --show-toplevel [6ms]
+2024-10-13 10:00:10.557 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-13 10:04:46.722 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-13 10:04:46.723 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-13 10:38:03.718 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-13 10:38:03.719 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-13 10:38:45.655 [info] > git rev-parse --show-toplevel [7ms]
+2024-10-13 10:38:45.655 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-13 10:39:57.594 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-13 10:39:57.594 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-13 10:42:59.406 [info] > git rev-parse --show-toplevel [3ms]
+2024-10-13 10:42:59.406 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-13 10:43:31.330 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-13 10:43:31.330 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-13 10:46:01.287 [info] > git rev-parse --show-toplevel [5ms]
+2024-10-13 10:46:01.287 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-13 10:48:07.025 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-13 10:48:07.025 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-13 10:48:23.802 [info] > git rev-parse --show-toplevel [11ms]
+2024-10-13 10:48:23.802 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-13 10:49:14.219 [info] > git rev-parse --show-toplevel [7ms]
+2024-10-13 10:49:14.219 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-13 11:45:59.778 [info] > git rev-parse --show-toplevel [548ms]
+2024-10-13 11:45:59.781 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-13 11:46:09.908 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-13 11:46:09.908 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-13 12:05:46.835 [info] > git rev-parse --show-toplevel [4ms]
+2024-10-13 12:05:46.836 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-13 12:05:51.537 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-13 12:05:51.537 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-13 12:05:53.962 [info] > git rev-parse --show-toplevel [3ms]
+2024-10-13 12:05:53.962 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-13 12:07:37.189 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-13 12:07:37.189 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-13 12:08:37.373 [info] > git rev-parse --show-toplevel [4ms]
+2024-10-13 12:08:37.373 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-13 12:10:03.178 [info] > git rev-parse --show-toplevel [8ms]
+2024-10-13 12:10:03.178 [info] fatal: not a git repository (or any of the parent directories): .git

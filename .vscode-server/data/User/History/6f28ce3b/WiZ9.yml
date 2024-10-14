@@ -1,0 +1,6 @@
+---
+ - hosts: 
+   tasks:
+
+     - name: create a directory
+       

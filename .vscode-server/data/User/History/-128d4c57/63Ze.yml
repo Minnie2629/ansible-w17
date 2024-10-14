@@ -1,0 +1,12 @@
+[ws]
+54.80.133.114
+[db]
+54.82.76.211
+
+[ws:vars]
+ansible_ssh_private_key_file=~/ansible-key.pem
+ansible_user= ec2-user
+
+[db:vars]
+ansible_ssh_private_key_file=~/ansible-key.pem
+ansible_user= ubuntu
